@@ -14,6 +14,8 @@ python3 main.py q1
 OR
 python3 main.py q1 --use-cache=True
 ```
+<img src="/img/render1594018947894.gif?raw=true"/>
+
 ## q2
 ```
 python3 main.py q2
@@ -23,7 +25,7 @@ python3 main.py q2 --use-cache=True
 
 ## route
 ```
-python3 main.py route source=copley destination=arlington
+python3 main.py route --origin='Malden Center' --destination=arlington
 OR
-python3 main.py route source=copley destination=arlington --use-cache=True
+python3 main.py route --origin='Malden Center' destination=arlington --use-cache=True
 ```
