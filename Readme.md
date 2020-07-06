@@ -8,7 +8,7 @@ pip install -r requirements.txt
 In order to get the output of each question, I've provided the following commands.  If the --use-cache flag is set,
 it'll use the local json files in /data instead of going to the MBTA api.
 
-## q1
+## Q1
 ```
 python3 main.py q1
 OR
@@ -16,14 +16,14 @@ python3 main.py q1 --use-cache=True
 ```
 <img src="/img/render1594018947894.gif?raw=true"/>
 
-## q2
+## Q2
 ```
 python3 main.py q2
 OR
 python3 main.py q2 --use-cache=True
 ```
 
-## route
+## Route
 ```
 python3 main.py route --origin='Malden Center' --destination=arlington
 OR
